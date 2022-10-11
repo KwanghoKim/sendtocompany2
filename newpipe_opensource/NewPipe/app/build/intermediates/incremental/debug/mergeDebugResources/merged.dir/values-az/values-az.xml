@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>Normal</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d saniyə irəli çəkin</item>
+    <item quantity="other">%d saniyə irəli çəkin</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d saniyə geri çəkin</item>
+    <item quantity="other">%d saniyə geri çəkin</item>
+  </plurals>
+    <plurals name="feed_group_dialog_selection_count">
+        <item quantity="one">%d seçildi</item>
+        <item quantity="other">%d seçildi</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d dəqiqə</item>
+        <item quantity="other">%d dəqiqə</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d yeni bildiriş</item>
+    <item quantity="other">%d yeni bildiriş</item>
+  </plurals>
+    <plurals name="seconds">
+        <item quantity="one">%d saniyə</item>
+        <item quantity="other">%d saniyə</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Əsas səhifəyə keçin"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yuxarı keçin"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Digər seçimlər"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hazırdır"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Hamısına baxın"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Tətbiq seçin"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEAKTİV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTİV"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"silin"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"daxil olun"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funksiya+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menyu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Axtarış..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Sorğunu silin"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Axtarış sorğusu"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Axtarın"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Sorğunu göndərin"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Səsli axtarış"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Paylaşın"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ilə paylaşın"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Yığcamlaşdırın"</string>
+    <string name="albums">Albomlar</string>
+    <string name="all">Hamısı</string>
+    <string name="always">Həmişə</string>
+    <string name="app_language_title">Tətbiq dili</string>
+    <string name="app_ui_crash">Tətbiq/UI çökdü</string>
+    <string name="app_update_notification_channel_description">Yeni \"NewPipe\" versiyası üçün bildirişlər</string>
+    <string name="app_update_notification_channel_name">Tətbiq Yeniləmə Bildirişi</string>
+    <string name="artists">İfaçılar</string>
+    <string name="audio_streams_empty">Səs yayımı tapılmadı</string>
+    <string name="auto_queue_title">Növbəti axını avtomatik olaraq növbəyə əlavə et</string>
+    <string name="auto_queue_toggle">Avto-növbələmə</string>
+    <string name="autoplay_title">Avto-oxutma</string>
+    <string name="background_player_playing_toast">Fonda oxudulur</string>
+    <string name="best_resolution">Ən yaxşı görüntü keyfiyyəti</string>
+    <string name="black_theme_title">Qara</string>
+    <string name="blank_page_summary">Boş Səhifə</string>
+    <string name="bottomsheet_action_expand_halfway">Tam genişləndirin</string>
+    <string name="brightness_gesture_control_summary">Pleyerin parlaqlığını idarə etmək üçün jestlərdən istifadə edin</string>
+    <string name="brightness_gesture_control_title">Parlaqlığın jestlə idarə edilməsi</string>
+    <string name="cancel">İmtina</string>
+    <string name="caption_none">Altyazı yoxdur</string>
+    <string name="channel_created_by">%s tərəfindən yaradıldı</string>
+    <string name="channel_page_summary">Kanal Səhifəsi</string>
+    <string name="channel_unsubscribed">Kanal abunəliyindən çıxıldı</string>
+    <string name="channels">Kanallar</string>
+    <string name="character_counter_content_description">%1$d/%2$d simvol daxil edilib</string>
+    <string name="character_counter_overflowed_content_description">Simvol limiti %1$d/%2$d dəyərini keçdi</string>
+    <string name="clear">Təmizlə</string>
+    <string name="clear_cookie_summary">\"ReCAPTCHA\" həll edilərkən \"NewPipe\"ın saxladığı çərəzləri təmizlə</string>
+    <string name="clear_cookie_title">reCAPTCHA çərəzlərini təmizlə</string>
+    <string name="clear_download_history">Yükləmə tarixçəsini təmizlə</string>
+    <string name="clear_playback_states_summary">Bütün oxutma mövqelərini siləcək</string>
+    <string name="clear_playback_states_title">Oxutma mövqelərini sil</string>
+    <string name="clear_queue_confirmation_description">Aktiv pleyerin növbəsi dəyişdiriləcək</string>
+    <string name="clear_queue_confirmation_summary">Bir pleyerdən digərinə keçmək növbənizi dəyişdirə bilər</string>
+    <string name="clear_queue_confirmation_title">Növbəni təmizləmədən öncə təsdiq üçün soruş</string>
+    <string name="clear_search_history_summary">Axtarışda işlədilmiş açar sözlərin tarixçəsini siləcək</string>
+    <string name="clear_search_history_title">Axtarış tarixçəsini təmizlə</string>
+    <string name="clear_text_end_icon_content_description">Mətni silin</string>
+    <string name="clear_views_history_summary">Oxutma axının tarixçəsini və oxutma mövqelərini siləcək</string>
+    <string name="clear_views_history_title">Baxış tarixçəsini təmizlə</string>
+    <string name="comments_tab_description">Şərhlər</string>
+    <string name="confirm_prompt">Yükləmə tarixçənizi təmizləmək və ya yüklənmiş bütün faylları silmək istəyirsiniz\?</string>
+    <string name="content">Məzmun</string>
+    <string name="content_language_title">İlkin məzmun dili</string>
+    <string name="content_not_available">Məzmun əlçatmazdır</string>
+    <string name="controls_add_to_playlist_title">Əlavə et</string>
+    <string name="controls_background_title">Fon</string>
+    <string name="controls_download_desc">Axın faylını endirin</string>
+    <string name="controls_popup_title">Ani pəncərə (popup)</string>
+    <string msgid="6083905920877235314" name="copy">"Kopyalayın"</string>
+    <string name="could_not_load_thumbnails">Kiçik təsvirlərin hamısı yüklənmədi</string>
+    <string name="could_not_setup_download_menu">Yükləmə menyusu qurulmadı</string>
+    <string name="dark_theme_title">Qaranlıq</string>
+    <string name="default_audio_format_title">Standart səs formatı</string>
+    <string name="default_content_country_title">Məzmun üçün ilkin ölkə</string>
+    <string name="default_kiosk_page_summary">İlkin Köşk</string>
+    <string name="default_popup_resolution_title">Ani pəncərədə standart görüntü keyfiyyəti</string>
+    <string name="default_resolution_title">Standard görüntü keyfiyyəti</string>
+    <string name="default_video_format_title">Standart video formatı</string>
+    <string name="delete">Sil</string>
+    <string name="delete_downloaded_files">Yüklənmiş faylları sil</string>
+    <string name="delete_playback_states_alert">Bütün oxutma mövqeləri silinsin\?</string>
+    <string name="delete_search_history_alert">Bütün axtarış tarixçəsi silinsin\?</string>
+    <string name="delete_view_history_alert">Bütün baxış tarixçəsi silinsin\?</string>
+    <string name="description_tab_description">Təsvir</string>
+    <string name="did_you_mean">Bunu demək istədiniz: \"%1$s\"\?</string>
+    <string name="disabled">Deaktiv edilib</string>
+    <string name="download">Yüklə</string>
+    <string name="download_dialog_title">Yüklə</string>
+    <string name="download_path_audio_dialog_title">Audio faylları üçün yükləmə qovluğunu seçin</string>
+    <string name="download_path_audio_summary">Yüklənmiş audio faylları burada saxlanılır</string>
+    <string name="download_path_audio_title">Audio yükləmə qovluğu</string>
+    <string name="download_path_dialog_title">Video faylları üçün yükləmə qovluğunu seçin</string>
+    <string name="download_path_summary">Yüklənmiş videolar burada saxlanılır</string>
+    <string name="download_path_title">Video yükləmə qovluğu</string>
+    <string name="download_thumbnail_title">Kiçik təsvirləri yüklə</string>
+    <string name="download_to_sdcard_error_message">Xarici SD karta yükləmək mümkün deyil. Yükləmə qovluğu üçün təyin edilmiş yer sıfırlansın\?</string>
+    <string name="download_to_sdcard_error_title">Xarici saxlanc əlçatmazdır</string>
+    <string name="downloads">Yükləmələr</string>
+    <string name="downloads_storage_ask_summary">Hər yükləmədə harada saxlanılacağı soruşulacaq</string>
+    <string name="downloads_storage_ask_title">Haraya yüklənəcəyini soruş</string>
+    <string name="downloads_storage_use_saf_summary">\'Saxlanca Müraciət Çərçivəsi\' xarici SD karta yükləməyə imkan verir.
+\nBəzi cihazlar uyğun deyil</string>
+    <string name="downloads_title">Yükləmələr</string>
+    <string name="duration_live">Canlı</string>
+    <string name="empty_subscription_feed_subtitle"/>
+    <string name="enable_playback_resume_summary">Video oxutmanı axırıncı qaldığı yerdən bərpa et</string>
+    <string name="enable_playback_resume_title">Oxutmanı davam etdir</string>
+    <string name="enable_playback_state_lists_summary">Oxutma siyahılarındakı oxutma mövqeyi göstəricisini nümayiş et</string>
+    <string name="enable_playback_state_lists_title">Siyahılardakı mövqelər</string>
+    <string name="enable_search_history_summary">Axtarış sorğularını lokal olaraq saxlayın</string>
+    <string name="enable_search_history_title">Axtarış tarixçəsi</string>
+    <string name="enable_watch_history_summary">İzlənmiş videoları qeyd et</string>
+    <string name="enable_watch_history_title">İzləmə tarixçəsi</string>
+    <string name="error_icon_content_description">Xəta</string>
+    <string name="error_report_title">Xəta hesabatı</string>
+    <string name="events">Hadisələr</string>
+    <string name="exo_controls_cc_disabled_description">Subtitrləri aktiv edin</string>
+    <string name="exo_controls_cc_enabled_description">Subtitrləri deaktiv edin</string>
+    <string name="exo_controls_fastforward_description">İrəli çəkin</string>
+    <string name="exo_controls_fullscreen_enter_description">Tam ekrana daxil olun</string>
+    <string name="exo_controls_fullscreen_exit_description">Tam ekrandan çıxın</string>
+    <string name="exo_controls_hide">Oyunçu nəzarətlərini gizlədin</string>
+    <string name="exo_controls_next_description">Sonra</string>
+    <string name="exo_controls_overflow_hide_description">Əlavə ayarları gizlədin</string>
+    <string name="exo_controls_overflow_show_description">Əlavə ayarları göstərin</string>
+    <string name="exo_controls_pause_description">Pauza</string>
+    <string name="exo_controls_play_description">Oxudun</string>
+    <string name="exo_controls_playback_speed">Sürət</string>
+    <string name="exo_controls_previous_description">Əvvəl</string>
+    <string name="exo_controls_repeat_all_description">Hamısı təkrarlansın</string>
+    <string name="exo_controls_repeat_off_description">Heç biri təkrarlanmasın</string>
+    <string name="exo_controls_repeat_one_description">Biri təkrarlansın</string>
+    <string name="exo_controls_rewind_description">Geri çəkin</string>
+    <string name="exo_controls_seek_bar_description">Oxutmanın gedişatı</string>
+    <string name="exo_controls_settings_description">Ayarlar</string>
+    <string name="exo_controls_show">Oyunçu nəzarətlərini göstərin</string>
+    <string name="exo_controls_shuffle_off_description">Qarışdırma deaktivdir</string>
+    <string name="exo_controls_shuffle_on_description">Qarışdırma aktivdir</string>
+    <string name="exo_controls_stop_description">Dayandırın</string>
+    <string name="exo_controls_vr_description">VR rejimi</string>
+    <string name="exo_download_completed">Endirmə tamamlandı</string>
+    <string name="exo_download_description">Endirin</string>
+    <string name="exo_download_downloading">Endirilir</string>
+    <string name="exo_download_failed">Endirmə alınmadı</string>
+    <string name="exo_download_notification_channel_name">Endirmələr</string>
+    <string name="exo_download_paused">Endirmə durdurulub</string>
+    <string name="exo_download_paused_for_network">Endirmələr şəbəkəni gözləyir</string>
+    <string name="exo_download_paused_for_wifi">Endirmələr WiFi şəbəkəsini gözləyir</string>
+    <string name="exo_download_removing">Endirilənlər silinir</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_media_action_repeat_all_description">Hamısı təkrarlansın</string>
+    <string name="exo_media_action_repeat_off_description">Heç biri təkrarlanmasın</string>
+    <string name="exo_media_action_repeat_one_description">Biri təkrarlansın</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativ</string>
+    <string name="exo_track_role_closed_captions">Nüsxəni alan</string>
+    <string name="exo_track_role_commentary">Şərh</string>
+    <string name="exo_track_role_supplementary">Əlavə</string>
+    <string name="exo_track_selection_auto">Avtomatik</string>
+    <string name="exo_track_selection_none">Yoxdur</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Mətn</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Yüksək səs</string>
+    <string name="exo_track_surround_5_point_1">5.1 yüksək səs</string>
+    <string name="exo_track_surround_7_point_1">7.1 yüksək səs</string>
+    <string name="exo_track_unknown">Naməlum</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Əlavə"</string>
+    <string name="export_data_summary">Tarixçəni, abunəlikləri və oxutma siyahılarını ixrac et</string>
+    <string name="export_data_title">Məlumat bazasını ixrac et</string>
+    <string name="exposed_dropdown_menu_content_description">Açılan menyunu göstərin</string>
+    <string name="external_player_unsupported_link_type">Xarici oynadıcılar bu cür linkləri dəstəkləmir</string>
+    <string name="feed_create_new_group_button_title">Yeni</string>
+    <string name="feed_group_dialog_delete_message">Bu qrupu silmək istəyirsiniz\?</string>
+    <string name="feed_group_dialog_empty_name">Boş qrup adı</string>
+    <string name="feed_group_dialog_empty_selection">Abunəlik seçilmədi</string>
+    <string name="feed_group_dialog_select_subscriptions">Abunəlikləri seçin</string>
+    <string name="feed_group_show_only_ungrouped_subscriptions">Yalnız qruplaşdırılmamış abunəlikləri göstər</string>
+    <string name="feed_notification_loading">Axın yüklənir…</string>
+    <string name="feed_oldest_subscription_update">Axın sonuncu dəfə güncəlləndi: %s</string>
+    <string name="feed_processing_message">Axın emal edilir…</string>
+    <string name="feed_subscription_not_loaded_count">Yüklənmədi: %d</string>
+    <string name="feed_update_threshold_option_always_update">Həmişə yenilə</string>
+    <string name="feed_update_threshold_title">Axın güncəlləmə astanası</string>
+    <string name="feed_use_dedicated_fetch_method_disable_button">Sürətli rejimi deaktiv et</string>
+    <string name="feed_use_dedicated_fetch_method_enable_button">Sürətli rejimi aktiv et</string>
+    <string name="feed_use_dedicated_fetch_method_help_text">Axının çox yavaş yükləndiyini düşünürsünüz\? Əgər elədirsə, sürətli yükləməni işə salmağı sınayın (ayarlardan dəyişə və ya aşağıdakı düyməni basa bilərsiniz).
+\n
+\nNewPipe axını yükləmək üçün 2 metod təklif edir:
+\n• Bütün abunəlik kanallarını gətirtmək, bu yavaş olsa da tamdır;
+\n• Ayrılmış xidmət uc nöqtəsi istifadə etmək, bu sürətlidir, amma tam deyil.
+\n
+\nBu ikisi arasında fərq odur ki, sürətlisində, adətən elementin müddəti və növü kimi bəzi məlumatlar çatışmır (canlı video ilə adisini ayırd edə bilmir) və daha az element gətirir.
+\n
+\nYouTube öz RSS axını ilə bu sürətli metodu təklif edən xidmətlərdən biridir. 
+\n
+\nBeləliklə, seçim sizin nəyə üstünlük verməyinizdən asılıdır: sürət yoxsa dəqiq məlumat.</string>
+    <string name="file">Fayl</string>
+    <string name="file_deleted">Fayl silindi</string>
+    <string name="fragment_feed_title">Yeni nə var</string>
+    <string name="general_error">Xəta</string>
+    <string name="help">Kömək</string>
+    <string name="icon_content_description">Dialoq ikonası</string>
+    <string name="import_data_summary">"Cari tarixçə, abunəliklər, pleylistlər və (istəyə görə)  ayarlarınızın üzərinə yazır"</string>
+    <string name="import_data_title">Məlumat bazasını idxal et</string>
+    <string name="install">Quraşdır</string>
+    <string name="invalid_directory">Belə qovluq yoxdur</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="just_once">Yalnız Bir Dəfə</string>
+    <string name="kiosk_page_summary">Köşk Səhifəsi</string>
+    <string name="kore_not_found">Çatışmayan \"Kore\" tətbiqi yüklənilsin\?</string>
+    <string name="light_theme_title">Açıq</string>
+    <string name="limit_data_usage_none_description">Limitsiz</string>
+    <string name="limit_mobile_data_usage_title">Mobil internet istifadə edərkən görüntü keyfiyyətini məhdudlaşdırın</string>
+    <string name="local_search_suggestions">Yerli axtarış təklifləri</string>
+    <string name="main_bg_subtitle">Başlamaq üçün \"Axtarış\" bölməsinə toxunun.</string>
+    <string name="main_page_content">Ana səhifənin məzmunu</string>
+    <string name="main_page_content_summary">Ana səhifədə hansı tab-vərəqələr göstərilir</string>
+    <string name="mark_as_watched">İzlənmiş kimi işarələ</string>
+    <string name="material_clock_toggle_content_description">Gündüz və ya axşam seçin</string>
+    <string name="material_hour_selection">Saatı seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dəqiqə seçin</string>
+    <string name="material_minute_suffix">%1$s dəqiqə</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zamanı daxil etmək üçün saat rejiminə keçin</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dəqiqə</string>
+    <string name="material_timepicker_pm">GƏ</string>
+    <string name="material_timepicker_select_time">Vaxt seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zamanı daxil etmək üçün mətnlə daxiletmə rejiminə keçin</string>
+    <string name="metadata_cache_wipe_complete_notice">Metadata keşi silindi</string>
+    <string name="metadata_cache_wipe_summary">Keşlənmiş bütün veb-səhifə verilənlərini sil</string>
+    <string name="metadata_cache_wipe_title">Keşlənmiş metadatanı təmizlə</string>
+    <string name="missing_file">Fayl köçürüldü və ya silindi</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildiriş</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s silin</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Minimum %1$d yeni bildiriş</string>
+    <string name="mtrl_picker_a11y_next_month">Növbəti aya dəyişin</string>
+    <string name="mtrl_picker_a11y_prev_month">Əvvəlki aya dəyişin</string>
+    <string name="mtrl_picker_announce_current_selection">Cari seçim: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarix seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilmiş tarix</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Yanlış format.</string>
+    <string name="mtrl_picker_invalid_format_example">Nümunə: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s istifadə edin</string>
+    <string name="mtrl_picker_invalid_range">Yanlış diapazon.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s ilinə keçin</string>
+    <string name="mtrl_picker_out_of_range">Əhatə dairəsindən kənar: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlama tarixi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitmə tarixi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s: %2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralıq seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlama tarixi - Bitmə tarixi</string>
+    <string name="mtrl_picker_save">Saxlayın</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarix</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitmə tarixi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlama tarixi</string>
+    <string name="mtrl_picker_text_input_day_abbr">gün</string>
+    <string name="mtrl_picker_text_input_month_abbr">ay</string>
+    <string name="mtrl_picker_text_input_year_abbr">il</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Təqvim daxiletmə rejiminə keçin</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçiminə keçmək üçün toxunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Mətn daxiletmə rejiminə keçin</string>
+    <string name="mtrl_picker_toggle_to_year_selection">İl seçiminə keçmək üçün toxunun</string>
+    <string name="network_error">Şəbəkə xətası</string>
+    <string name="night_theme_title">Gecə Mövzusu</string>
+    <string name="no_channel_subscribed_yet">Hələ ki kanal abunəliyi yoxdur</string>
+    <string name="no_player_found">Axın pleyeri tapılmadı. \"VLC\" yüklənilsin\?</string>
+    <string name="no_player_found_toast">Axın pleyeri tapılmadı (baxmaq üçün \"VLC\"ni yükləyə bilərsiniz).</string>
+    <string msgid="6573031135582639649" name="not_set">"Ayarlanmayıb"</string>
+    <string name="notification_action_0_title">Birinci hərəkət düyməsi</string>
+    <string name="notification_action_1_title">İkinci hərəkət düyməsi</string>
+    <string name="notification_action_2_title">Üçüncü hərəkət düyməsi</string>
+    <string name="notification_action_3_title">Dördüncü hərəkət düyməsi</string>
+    <string name="notification_action_4_title">Beşinci hərəkət düyməsi</string>
+    <string name="notification_action_buffering">Buferizasiya olunur</string>
+    <string name="notification_action_nothing">Heç nə</string>
+    <string name="notification_action_repeat">Təkrarla</string>
+    <string name="notification_action_shuffle">Qarışdır</string>
+    <string name="notification_actions_at_most_three">Siz yığcam bildirişdə göstərilməsi üçün ən çoxu üç fəaliyyət seçə bilərsiniz!</string>
+    <string name="notification_channel_description">Fon və ani pəncərə pleyerləri üçün \"NewPipe\" bildirişləri</string>
+    <string name="notification_channel_name">\"Newpipe\" Bildirişi</string>
+    <string name="notification_colorize_title">Bildirişləri rənglə</string>
+    <string name="ok">Oldu</string>
+    <string name="one_item_deleted">1 element silindi.</string>
+    <string name="open_in_browser">Brauzerdə aç</string>
+    <string name="open_in_popup_mode">Ani pəncərə rejimində aç</string>
+    <string name="open_with">Aşağıdakılardan biri ilə aç</string>
+    <string name="password_toggle_content_description">Parolu göstərin</string>
+    <string name="pause_downloads">Yükləmələrə fasilə ver</string>
+    <string name="peertube_instance_add_title">Nümunə əlavə et</string>
+    <string name="peertube_instance_url_summary">Sevimli \"PeerTube\" nümunələrinizi seçin</string>
+    <string name="peertube_instance_url_title">\"PeerTube\" nümunələri</string>
+    <string name="permission_display_over_apps">Başqa proqramların üzərində göstərmə icazəsi ver</string>
+    <string name="play_all">Hamısını Oxut</string>
+    <string name="play_audio">Audio</string>
+    <string name="play_with_kodi_title">\"Kodi\" ilə oxut</string>
+    <string name="player_recoverable_failure">Oynadıcı xətası düzəldilir</string>
+    <string name="player_stream_failure">Bu axını oxutmaq olmadı</string>
+    <string name="player_unrecoverable_failure">Bərpa oluna bilməyən oynadıcı xətası baş verdi</string>
+    <string name="playlist_page_summary">Oxutma siyahısı səhifəsi</string>
+    <string name="playlists">Oxutma siyahıları</string>
+    <string name="popup_playing_toast">Ani pəncərədə oxudulur</string>
+    <string name="popup_remember_size_pos_summary">Ani açılan pəncərənin son ölçüsü və mövqeyini xatırla</string>
+    <string name="popup_remember_size_pos_title">Ani açılan pəncərə (popup) xüsusiyyətlərini xatırla</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" buferə kopyalandı."</string>
+    <string name="recaptcha_cookies_cleared">reCAPTCHA çərəzləri təmizləndi</string>
+    <string name="related_items_tab_description">Əlaqəli videolar</string>
+    <string name="resize_fill">Doldur</string>
+    <string name="resize_fit">Dart</string>
+    <string name="resize_zoom">Yaxınlaşdır</string>
+    <string name="restore_defaults">İlkin ayarları qaytar</string>
+    <string name="restore_defaults_confirmation">İlkin ayarları qaytarmaq istəyirsiniz\?</string>
+    <string name="restricted_video">Bu video yaş məhdudiyyətlidir.
+\n
+\nGörmək istəyirsinizsə, ayarlarda \"%1$s\" özəlliyini yandırın.</string>
+    <string name="restricted_video_no_stream">Bu video yaş məhdudiyyətlidir.
+\n\"YouTube\"un yeni yaş məhdudiyyətli videolar siyasətinə görə \"NewPipe\" bu cür videoların yayımını əldə edə bilmir, beləliklə, videonu oynatmaq mümkün deyil.</string>
+    <string name="resume_on_audio_focus_gain_summary">Kəsintilərdən sonra (məs. telefon zəngi) oxutmağa davam et</string>
+    <string name="resume_on_audio_focus_gain_title">Oxutmağa davam et</string>
+    <string name="search">Axtarış</string>
+    <string name="search_history_deleted">Axtarış tarixçəsi silindi.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Axtarın"</string>
+    <string name="search_no_results">Nəticə yoxdur</string>
+    <string name="search_showing_result_for">Nəticələr göstərilir: %s</string>
+    <string name="seek_duration_title">Cəld irəli/geri çəkmə müddəti</string>
+    <string name="select_a_channel">Kanal seçin</string>
+    <string name="settings">Ayarlar</string>
+    <string name="settings_category_appearance_title">Görünüş</string>
+    <string name="settings_category_clear_data_title">Verilənləri təmizlə</string>
+    <string name="settings_category_debug_title">Sazlama</string>
+    <string name="settings_category_feed_title">Axın</string>
+    <string name="settings_category_history_title">Tarix və keş</string>
+    <string name="settings_category_player_behavior_title">Davranış</string>
+    <string name="settings_category_player_title">Pleyer</string>
+    <string name="settings_category_updates_title">Yeniləmələr</string>
+    <string name="settings_category_video_audio_title">Video və səs</string>
+    <string name="share">Paylaş</string>
+    <string name="share_dialog_title">Paylaş</string>
+    <string name="show_age_restricted_content_summary">Yaş limiti olduğuna görə (məs. 18+) böyük ehtimal uşaqlar üçün uyğun olmayan məzmunu göstər</string>
+    <string name="show_age_restricted_content_title">Yaş məhdudiyyətli məzmunu göstər</string>
+    <string name="show_comments_summary">Şərhləri gizlətmək üçün söndürün</string>
+    <string name="show_comments_title">Şərhləri göstər</string>
+    <string name="show_description_summary">Video təsvirini və əlavə bilgiləri gizlətmək üçün söndürün</string>
+    <string name="show_description_title">Təsviri göstər</string>
+    <string name="show_higher_resolutions_summary">Yalnız bəzi cihazlar 2K/4K videoları oxuda bilir</string>
+    <string name="show_higher_resolutions_title">Daha böyük ölçüləri göstər</string>
+    <string name="show_hold_to_append_title">\"Əlavə etmək üçün basılı tutun\" məsləhətini göstər</string>
+    <string name="show_info">Məlumat göstər</string>
+    <string name="show_meta_info_title">Üst bilgini göstər</string>
+    <string name="show_next_and_similar_title">\"Növbəti\" və \"Bənzər\" videoları göstər</string>
+    <string name="show_play_with_kodi_summary">Videonu Kodi media center ilə oynatmaq üçün seçim göstər</string>
+    <string name="show_play_with_kodi_title">\"Kodi ilə oxut\" seçimini göstər</string>
+    <string name="show_search_suggestions_summary">Axtarış edərkən göstəriləcək təklifləri seçin</string>
+    <string name="show_search_suggestions_title">Axtarış təklifləri</string>
+    <string name="songs">Mahnılar</string>
+    <string name="start_downloads">Yükləmələrə başla</string>
+    <string name="start_main_player_fullscreen_title">Əsas oynadıcını (pleyeri) tam ekranda başlat</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subscribe_button_title">Abunə ol</string>
+    <string name="subscribed_button_title">Abunə olundu</string>
+    <string name="subscription_change_failed">Abunəlik dəyişdirilmədi</string>
+    <string name="subscription_update_failed">Abunəlik yenilənmədi</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="switch_to_background">Fona Keç</string>
+    <string name="switch_to_main">Əsas Görünüşə Keç</string>
+    <string name="switch_to_popup">Ani Pəncərəyə Keç</string>
+    <string name="systems_language">Sistem öncülü</string>
+    <string name="tab_bookmarks">Saxlanmış Oxutma Siyahıları</string>
+    <string name="tab_choose">Tab-vərəqəni Seçin</string>
+    <string name="tab_subscriptions">Abunəliklər</string>
+    <string name="theme_title">Mövzu</string>
+    <string name="thumbnail_cache_wipe_complete_notice">Şəkil keşi silindi</string>
+    <string name="tracks">Treklər</string>
+    <string name="undo">Geri qaytar</string>
+    <string name="unknown_content">[Bilinməyən]</string>
+    <string name="unsubscribe">Abunəlikdən çıx</string>
+    <string name="unsupported_url">Dəstəklənməyən URL</string>
+    <string name="unsupported_url_dialog_message">URL tanınmadı. Başqa bir tətbiq ilə açılsın\?</string>
+    <string name="updates_setting_description">Yeni versiya mövcud olanda tətbiqi yeniləməyi xatırlatmaq üçün bildiriş göstər</string>
+    <string name="updates_setting_title">Yeniləmələr</string>
+    <string name="upload_date_text">%1$s tarixində yayımlanıb</string>
+    <string name="use_external_audio_player_title">Kənar audio oynadıcı istifadə et</string>
+    <string name="use_external_video_player_summary">Bəzi görüntü keyfiyyətlərində səs itir</string>
+    <string name="use_external_video_player_title">Kənar video oynadıcı istifadə et</string>
+    <string name="use_inexact_seek_summary">Qeyri-dəqiq axtarış oynadıcıya azaldılmış həssaslıqla mövqeləri daha sürətlə axtarmağa imkan verir. 5, 15 və ya 25 saniyəlik axtarış bununla işləmir</string>
+    <string name="use_inexact_seek_title">Qeyri-dəqiq axtarış (videonu irəli/geri çəkmə) istifadə edin</string>
+    <string name="users">İstifadəçilər</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DEAKTİV"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"AKTİV"</string>
+    <string name="video">Video</string>
+    <string name="video_detail_by">%s tərəfindən</string>
+    <string name="video_streams_empty">Video yayımı tapılmadı</string>
+    <string name="videos_string">Videolar</string>
+    <string name="volume_gesture_control_summary">Pleyerin səsini idarə etmək üçün jestlərdən istifadə edin</string>
+    <string name="volume_gesture_control_title">Səsin jestlə idarə edilməsi</string>
+    <string name="watch_history_deleted">Baxış tarixçəsi silindi.</string>
+    <string name="watch_history_states_deleted">Oxutma mövqeləri silindi.</string>
+    <string name="youtube_restricted_mode_enabled_summary">\"YouTube\" böyüklər üçün potensial məzmunu gizləyən \"Məhdud Rejim\" təmin edir.</string>
+    <string name="youtube_restricted_mode_enabled_title">\"Youtube\"un \"Məhdudiyyətli Rejimi\"ni aktivləşdir</string>
+</resources>

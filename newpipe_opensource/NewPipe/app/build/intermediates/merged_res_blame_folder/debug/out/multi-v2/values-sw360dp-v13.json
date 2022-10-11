@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.schabi.newpipe.app-mergeDebugResources-43:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/kwanghokim/.gradle/caches/transforms-3/6921194b6bf6a33159365f422189107f/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

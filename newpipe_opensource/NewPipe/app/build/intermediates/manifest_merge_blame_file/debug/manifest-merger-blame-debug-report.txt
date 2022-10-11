@@ -1,0 +1,1180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.schabi.newpipe.debug"
+4    android:installLocation="auto"
+5    android:versionCode="986"
+6    android:versionName="0.23.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+10        android:targetSdkVersion="29" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:7:5-67
+12-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:8:5-68
+13-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:9:5-79
+14-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:10:5-81
+15-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:11:5-78
+16-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:11:22-75
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:12:5-77
+17-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:12:22-74
+18
+19    <uses-feature
+19-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.touchscreen"
+20-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:15:9-52
+21        android:required="false" />
+21-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- To store the heap dumps and leak analysis results. -->
+23-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+23-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:5-80
+24-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:22-77
+25
+26    <application
+26-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:18:5-392:19
+27        android:name="org.schabi.newpipe.DebugApp"
+27-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:19:9-28
+28        android:allowBackup="true"
+28-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:20:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /home/kwanghokim/.gradle/caches/transforms-3/185e2f0c619288e0f8d4f5786a951195/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:banner="@mipmap/newpipe_tv_banner"
+30-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:21:9-51
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:23:9-41
+34        android:logo="@mipmap/ic_launcher"
+34-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:24:9-43
+35        android:resizeableActivity="true"
+35-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:26:9-42
+36        android:testOnly="true"
+37        android:theme="@style/OpeningTheme" >
+37-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:25:9-44
+38        <activity
+38-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:28:9-38:20
+39            android:name="org.schabi.newpipe.MainActivity"
+39-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:29:13-41
+40            android:label="@string/app_name"
+40-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:30:13-45
+41            android:launchMode="singleTask" >
+41-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:31:13-44
+42            <intent-filter>
+42-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:32:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:33:17-69
+43-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:33:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:35:17-77
+45-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:35:27-74
+46                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+46-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:36:17-86
+46-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:36:27-83
+47            </intent-filter>
+48        </activity>
+49
+50        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+50-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:40:9-44:20
+50-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:40:19-76
+51            <intent-filter>
+51-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:41:13-43:29
+52                <action android:name="android.intent.action.MEDIA_BUTTON" />
+52-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:42:17-77
+52-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:42:25-74
+53            </intent-filter>
+54        </receiver>
+55
+56        <service
+56-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:46:9-53:19
+57            android:name="org.schabi.newpipe.player.MainPlayer"
+57-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:47:13-46
+58            android:exported="false"
+58-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:48:13-37
+59            android:foregroundServiceType="mediaPlayback" >
+59-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:49:13-58
+60            <intent-filter>
+60-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:41:13-43:29
+61                <action android:name="android.intent.action.MEDIA_BUTTON" />
+61-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:42:17-77
+61-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:42:25-74
+62            </intent-filter>
+63        </service>
+64
+65        <activity
+65-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:55:9-58:47
+66            android:name="org.schabi.newpipe.player.PlayQueueActivity"
+66-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:56:13-53
+67            android:label="@string/title_activity_play_queue"
+67-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:57:13-62
+68            android:launchMode="singleTask" />
+68-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:58:13-44
+69        <activity
+69-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:60:9-62:48
+70            android:name="org.schabi.newpipe.settings.SettingsActivity"
+70-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:61:13-54
+71            android:label="@string/settings" />
+71-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:62:13-45
+72        <activity
+72-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:64:9-66:60
+73            android:name="org.schabi.newpipe.about.AboutActivity"
+73-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:65:13-48
+74            android:label="@string/title_activity_about" />
+74-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:66:13-57
+75
+76        <service android:name="org.schabi.newpipe.local.subscription.services.SubscriptionsImportService" />
+76-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:68:9-91
+76-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:68:18-88
+77        <service android:name="org.schabi.newpipe.local.subscription.services.SubscriptionsExportService" />
+77-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:69:9-91
+77-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:69:18-88
+78        <service android:name="org.schabi.newpipe.local.feed.service.FeedLoadService" />
+78-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:70:9-71
+78-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:70:18-68
+79
+80        <activity
+80-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:72:9-82:20
+81            android:name="org.schabi.newpipe.PanicResponderActivity"
+81-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:73:13-51
+82            android:launchMode="singleInstance"
+82-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:74:13-48
+83            android:noHistory="true"
+83-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:75:13-37
+84            android:theme="@android:style/Theme.NoDisplay" >
+84-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:76:13-59
+85            <intent-filter>
+85-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:77:13-81:29
+86                <action android:name="info.guardianproject.panic.action.TRIGGER" />
+86-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:78:17-84
+86-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:78:25-81
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+88-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:84:9-87:62
+92            android:name="org.schabi.newpipe.ExitActivity"
+92-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:85:13-41
+93            android:label="@string/general_error"
+93-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:86:13-50
+94            android:theme="@android:style/Theme.NoDisplay" />
+94-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:87:13-59
+95        <activity android:name="org.schabi.newpipe.error.ErrorActivity" /> <!-- giga get related -->
+95-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:88:9-57
+95-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:88:19-54
+96        <activity
+96-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:91:9-94:47
+97            android:name="org.schabi.newpipe.download.DownloadActivity"
+97-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:92:13-54
+98            android:label="@string/app_name"
+98-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:93:13-45
+99            android:launchMode="singleTask" />
+99-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:94:13-44
+100
+101        <service android:name="us.shandian.giga.service.DownloadManagerService" />
+101-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:96:9-83
+101-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:96:18-80
+102
+103        <activity
+103-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:98:9-106:20
+104            android:name="org.schabi.newpipe.util.FilePickerActivityHelper"
+104-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:99:13-58
+105            android:label="@string/app_name"
+105-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:100:13-45
+106            android:theme="@style/FilePickerThemeDark" >
+106-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:101:13-55
+107            <intent-filter>
+107-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:102:13-105:29
+108                <action android:name="android.intent.action.GET_CONTENT" />
+108-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:103:17-76
+108-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:103:25-73
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+110-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:108:9-110:49
+114            android:name="org.schabi.newpipe.error.ReCaptchaActivity"
+114-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:109:13-52
+115            android:label="@string/recaptcha" />
+115-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:110:13-46
+116
+117        <provider
+118            android:name="androidx.core.content.FileProvider"
+119            android:authorities="org.schabi.newpipe.debug.provider"
+120            android:exported="false"
+121            android:grantUriPermissions="true" >
+122            <meta-data
+122-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:34:13-36:66
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:35:17-67
+124                android:resource="@xml/nnf_provider_paths" />
+124-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:36:17-63
+125        </provider>
+126
+127        <activity
+127-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:122:9-380:20
+128            android:name="org.schabi.newpipe.RouterActivity"
+128-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:123:13-43
+129            android:excludeFromRecents="true"
+129-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:124:13-46
+130            android:label="@string/preferred_open_action_share_menu_title"
+130-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:125:13-75
+131            android:taskAffinity=""
+131-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:126:13-36
+132            android:theme="@style/RouterActivityThemeDark" >
+132-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:127:13-59
+133
+134            <!-- Youtube filter -->
+135            <intent-filter>
+135-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:130:13-156:29
+136                <action android:name="android.intent.action.VIEW" />
+136-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+136-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+137                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+137-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+137-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+138                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+138-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+138-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+140-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+141                <category android:name="android.intent.category.BROWSABLE" />
+141-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+141-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+142
+143                <data android:scheme="http" />
+143-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+143-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+144                <data android:scheme="https" />
+144-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+144-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+145                <data android:host="youtube.com" />
+145-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+146                <data android:host="m.youtube.com" />
+146-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+147                <data android:host="www.youtube.com" />
+147-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+148                <data android:host="music.youtube.com" />
+148-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+149                <!-- video prefix -->
+150                <data android:pathPrefix="/v/" />
+150-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+151                <data android:pathPrefix="/embed/" />
+151-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+152                <data android:pathPrefix="/watch" />
+152-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+153                <data android:pathPrefix="/attribution_link" />
+153-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+154                <data android:pathPrefix="/shorts/" />
+154-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+155                <!-- channel prefix -->
+156                <data android:pathPrefix="/channel/" />
+156-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+157                <data android:pathPrefix="/user/" />
+157-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+158                <data android:pathPrefix="/c/" />
+158-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+159                <!-- playlist prefix -->
+160                <data android:pathPrefix="/playlist" />
+160-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+161            </intent-filter>
+162            <intent-filter>
+162-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:157:13-169:29
+163                <action android:name="android.intent.action.VIEW" />
+163-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+163-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+164                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+164-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+164-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+165                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+165-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+165-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+167-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+168                <category android:name="android.intent.category.BROWSABLE" />
+168-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+168-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+169
+170                <data android:scheme="http" />
+170-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+170-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+171                <data android:scheme="https" />
+171-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+171-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+172                <data android:host="youtu.be" />
+172-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+173                <data android:pathPrefix="/" />
+173-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+174            </intent-filter>
+175            <intent-filter>
+175-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:170:13-182:29
+176                <action android:name="android.intent.action.VIEW" />
+176-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+176-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+177                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+177-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+177-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+178                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+178-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+178-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+179
+180                <category android:name="android.intent.category.DEFAULT" />
+180-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+180-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+181                <category android:name="android.intent.category.BROWSABLE" />
+181-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+181-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+182
+183                <data android:scheme="http" />
+183-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+183-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+184                <data android:scheme="https" />
+184-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+184-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+185                <data android:host="www.youtube-nocookie.com" />
+185-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+186                <data android:pathPrefix="/embed/" />
+186-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+187            </intent-filter>
+188            <intent-filter>
+188-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:183:13-193:29
+189                <action android:name="android.intent.action.VIEW" />
+189-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+189-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+190                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+190-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+190-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+191                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+191-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+191-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+192
+193                <category android:name="android.intent.category.DEFAULT" />
+193-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+193-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+194                <category android:name="android.intent.category.BROWSABLE" />
+194-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+194-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+195
+196                <data android:scheme="vnd.youtube" />
+196-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+196-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+197                <data android:scheme="vnd.youtube.launch" />
+197-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+197-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+198            </intent-filter>
+199
+200            <!-- Hooktube filter -->
+201            <intent-filter>
+201-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:196:13-215:29
+202                <action android:name="android.intent.action.VIEW" />
+202-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+202-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+203                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+203-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+203-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+204                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+204-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+204-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+206-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+207-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+208
+209                <data android:scheme="http" />
+209-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+209-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+210                <data android:scheme="https" />
+210-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+210-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+211                <data android:host="hooktube.com" />
+211-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+212                <data android:host="*.hooktube.com" />
+212-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+213                <!-- video prefix -->
+214                <data android:pathPrefix="/v/" />
+214-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+215                <data android:pathPrefix="/embed/" />
+215-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+216                <data android:pathPrefix="/watch" />
+216-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+217                <!-- channel prefix -->
+218                <data android:pathPrefix="/channel/" />
+218-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+219                <data android:pathPrefix="/user/" />
+219-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+220            </intent-filter>
+221
+222            <!-- Invidious filter -->
+223            <intent-filter>
+223-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:218:13-257:29
+224                <action android:name="android.intent.action.VIEW" />
+224-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+224-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+225                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+225-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+225-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+226                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+226-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+226-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+227
+228                <category android:name="android.intent.category.DEFAULT" />
+228-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+228-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+229                <category android:name="android.intent.category.BROWSABLE" />
+229-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+229-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+230
+231                <data android:scheme="http" />
+231-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+231-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+232                <data android:scheme="https" />
+232-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+232-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+233                <data android:host="tubus.eduvid.org" />
+233-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+234                <data android:host="invidio.us" />
+234-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+235                <data android:host="dev.invidio.us" />
+235-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+236                <data android:host="www.invidio.us" />
+236-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+237                <data android:host="redirect.invidious.io" />
+237-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+238                <data android:host="invidious.snopyta.org" />
+238-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+239                <data android:host="yewtu.be" />
+239-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+240                <data android:host="tube.connect.cafe" />
+240-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+241                <data android:host="invidious.kavin.rocks" />
+241-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+242                <data android:host="invidious-us.kavin.rocks" />
+242-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+243                <data android:host="piped.kavin.rocks" />
+243-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+244                <data android:host="invidious.site" />
+244-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+245                <data android:host="vid.mint.lgbt" />
+245-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+246                <data android:host="invidiou.site" />
+246-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+247                <data android:host="invidious.fdn.fr" />
+247-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+248                <data android:host="invidious.048596.xyz" />
+248-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+249                <data android:host="invidious.zee.li" />
+249-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+250                <data android:host="vid.puffyan.us" />
+250-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+251                <data android:host="ytprivate.com" />
+251-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+252                <data android:host="invidious.namazso.eu" />
+252-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+253                <data android:host="invidious.silkky.cloud" />
+253-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+254                <data android:host="invidious.exonip.de" />
+254-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+255                <data android:host="inv.riverside.rocks" />
+255-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+256                <data android:host="invidious.blamefran.net" />
+256-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+257                <data android:host="invidious.moomoo.me" />
+257-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+258                <data android:host="ytb.trom.tf" />
+258-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+259                <data android:host="yt.cyberhost.uk" />
+259-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+260                <data android:host="y.com.cm" />
+260-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+261                <data android:pathPrefix="/" />
+261-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+262            </intent-filter>
+263
+264            <!-- y2u.be filter -->
+265            <intent-filter>
+265-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:260:13-272:29
+266                <action android:name="android.intent.action.VIEW" />
+266-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+266-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+267                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+267-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+267-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+268                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+268-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+268-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+269
+270                <category android:name="android.intent.category.DEFAULT" />
+270-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+270-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+271                <category android:name="android.intent.category.BROWSABLE" />
+271-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+271-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+272
+273                <data android:scheme="http" />
+273-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+273-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+274                <data android:scheme="https" />
+274-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+274-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+275                <data android:host="y2u.be" />
+275-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+276                <data android:pathPrefix="/" />
+276-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+277            </intent-filter>
+278
+279            <!-- Soundcloud filter -->
+280            <intent-filter>
+280-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:275:13-289:29
+281                <action android:name="android.intent.action.VIEW" />
+281-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+281-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+282                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+282-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+282-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+283                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+283-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+283-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+285-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+286                <category android:name="android.intent.category.BROWSABLE" />
+286-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+286-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+287
+288                <data android:scheme="http" />
+288-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+288-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+289                <data android:scheme="https" />
+289-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+289-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+290                <data android:host="soundcloud.com" />
+290-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+291                <data android:host="m.soundcloud.com" />
+291-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+292                <data android:host="www.soundcloud.com" />
+292-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+293                <data android:pathPrefix="/" />
+293-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+294            </intent-filter>
+295
+296            <!-- Share filter -->
+297            <intent-filter>
+297-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:292:13-296:29
+298                <action android:name="android.intent.action.SEND" />
+298-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:293:17-69
+298-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:293:25-66
+299
+300                <category android:name="android.intent.category.DEFAULT" />
+300-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+300-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+301
+302                <data android:mimeType="text/plain" />
+302-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+303            </intent-filter>
+304
+305            <!-- media.ccc.de filter -->
+306            <intent-filter>
+306-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:299:13-315:29
+307                <action android:name="android.intent.action.VIEW" />
+307-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+307-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+308                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+308-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+308-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+309                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+309-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+309-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+310
+311                <category android:name="android.intent.category.DEFAULT" />
+311-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+311-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+312                <category android:name="android.intent.category.BROWSABLE" />
+312-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+312-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+313
+314                <data android:scheme="http" />
+314-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+314-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+315                <data android:scheme="https" />
+315-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+315-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+316                <data android:host="media.ccc.de" />
+316-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+317                <!-- video prefix -->
+318                <data android:pathPrefix="/v/" />
+318-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+319                <!-- channel prefix -->
+320                <data android:pathPrefix="/c/" />
+320-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+321                <data android:pathPrefix="/b/" />
+321-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+322            </intent-filter>
+323
+324            <!-- PeerTube filter -->
+325            <intent-filter>
+325-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:318:13-350:29
+326                <action android:name="android.intent.action.VIEW" />
+326-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+326-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+327                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+327-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+327-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+328                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+328-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+328-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+329
+330                <category android:name="android.intent.category.DEFAULT" />
+330-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+330-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+331                <category android:name="android.intent.category.BROWSABLE" />
+331-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+331-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+332
+333                <data android:scheme="http" />
+333-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+333-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+334                <data android:scheme="https" />
+334-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+334-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+335                <data android:host="eduvid.org" />
+335-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+336                <data android:host="framatube.org" />
+336-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+337                <data android:host="media.assassinate-you.net" />
+337-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+338                <data android:host="peertube.co.uk" />
+338-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+339                <data android:host="peertube.cpy.re" />
+339-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+340                <data android:host="peertube.mastodon.host" />
+340-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+341                <data android:host="peertube.fr" />
+341-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+342                <data android:host="tilvids.com" />
+342-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+343                <data android:host="tube.privacytools.io" />
+343-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+344                <data android:host="video.ploud.fr" />
+344-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+345                <data android:host="video.lqdn.fr" />
+345-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+346                <data android:host="skeptikon.fr" />
+346-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+347                <data android:host="media.fsfe.org" />
+347-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+348                <data android:pathPrefix="/videos/" /> <!-- it contains playlists -->
+348-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+349                <data android:pathPrefix="/w/" /> <!-- short video URLs -->
+349-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+350                <data android:pathPrefix="/w/p/" /> <!-- short playlist URLs -->
+350-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+351                <data android:pathPrefix="/accounts/" />
+351-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+352                <data android:pathPrefix="/a/" /> <!-- short account URLs -->
+352-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+353                <data android:pathPrefix="/video-channels/" />
+353-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+354                <data android:pathPrefix="/c/" /> <!-- short video-channels URLs -->
+354-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+355            </intent-filter>
+356
+357            <!-- Bandcamp filter for tracks, albums and playlists -->
+358            <intent-filter>
+358-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:353:13-364:29
+359                <action android:name="android.intent.action.VIEW" />
+359-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+359-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+360                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+360-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+360-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+361                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+361-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+361-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+362
+363                <category android:name="android.intent.category.DEFAULT" />
+363-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+363-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+364                <category android:name="android.intent.category.BROWSABLE" />
+364-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+364-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+365
+366                <data android:scheme="http" />
+366-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+366-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+367                <data android:scheme="https" />
+367-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+367-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+368                <data android:host="*.bandcamp.com" />
+368-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+369            </intent-filter>
+370
+371            <!-- Bandcamp filter for radio -->
+372            <intent-filter>
+372-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:367:13-378:29
+373                <action android:name="android.intent.action.VIEW" />
+373-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:17-69
+373-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:131:25-66
+374                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+374-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:17-86
+374-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:132:25-83
+375                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+375-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:17-77
+375-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:133:25-74
+376
+377                <category android:name="android.intent.category.DEFAULT" />
+377-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:17-76
+377-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:80:27-73
+378                <category android:name="android.intent.category.BROWSABLE" />
+378-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:17-78
+378-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:136:27-75
+379
+380                <data android:scheme="http" />
+380-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+380-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+381                <data android:scheme="https" />
+381-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+381-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:23-44
+382                <data android:sspPattern="bandcamp.com/?show=*" />
+382-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:138:17-47
+383            </intent-filter>
+384        </activity>
+385
+386        <service
+386-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:381:9-383:40
+387            android:name="org.schabi.newpipe.RouterActivity$FetcherService"
+387-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:382:13-58
+388            android:exported="false" /> <!-- opting out of sending metrics to Google in Android System WebView -->
+388-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:383:13-37
+389        <meta-data
+389-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:386:9-95
+390            android:name="android.webkit.WebView.MetricsOptOut"
+390-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:386:20-71
+391            android:value="true" /> <!-- see https://github.com/TeamNewPipe/NewPipe/issues/3947 -->
+391-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:386:72-92
+392        <!-- Version < 3.0. DeX Mode and Screen Mirroring support -->
+393        <meta-data
+393-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:389:9-95
+394            android:name="com.samsung.android.keepalive.density"
+394-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:389:20-72
+395            android:value="true" /> <!-- Version >= 3.0. DeX Dual Mode support -->
+395-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:389:73-93
+396        <meta-data
+396-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:391:9-109
+397            android:name="com.samsung.android.multidisplay.keep_process_alive"
+397-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:391:20-86
+398            android:value="true" />
+398-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:391:87-107
+399
+400        <service
+400-->[com.squareup.leakcanary:leakcanary-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/9c07f6e1db335cdecb0f43920212f1b4/transformed/jetified-leakcanary-android-2.5/AndroidManifest.xml:23:9-25:40
+401            android:name="leakcanary.internal.HeapAnalyzerService"
+401-->[com.squareup.leakcanary:leakcanary-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/9c07f6e1db335cdecb0f43920212f1b4/transformed/jetified-leakcanary-android-2.5/AndroidManifest.xml:24:13-67
+402            android:exported="false" />
+402-->[com.squareup.leakcanary:leakcanary-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/9c07f6e1db335cdecb0f43920212f1b4/transformed/jetified-leakcanary-android-2.5/AndroidManifest.xml:25:13-37
+403        <service
+403-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:26:9-30:39
+404            android:name="org.acra.sender.LegacySenderService"
+404-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:27:13-63
+405            android:enabled="@bool/acra_enable_legacy_service"
+405-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:28:13-63
+406            android:exported="false"
+406-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:29:13-37
+407            android:process=":acra" />
+407-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:30:13-36
+408        <service
+408-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:31:9-36:39
+409            android:name="org.acra.sender.JobSenderService"
+409-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:32:13-60
+410            android:enabled="@bool/acra_enable_job_service"
+410-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:33:13-60
+411            android:exported="false"
+411-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:34:13-37
+412            android:permission="android.permission.BIND_JOB_SERVICE"
+412-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:35:13-69
+413            android:process=":acra" />
+413-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:36:13-36
+414
+415        <provider
+415-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:38:9-44:51
+416            android:name="org.acra.attachment.AcraContentProvider"
+416-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:39:13-67
+417            android:authorities="org.schabi.newpipe.debug.acra"
+417-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:40:13-56
+418            android:exported="false"
+418-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:41:13-37
+419            android:grantUriPermissions="true"
+419-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:42:13-47
+420            android:process=":acra" />
+420-->[ch.acra:acra-core:5.9.3] /home/kwanghokim/.gradle/caches/transforms-3/c6f04a35464122a7418f3dd1228841dd/transformed/jetified-acra-core-5.9.3/AndroidManifest.xml:43:13-36
+421
+422        <uses-library
+422-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+423            android:name="androidx.window.extensions"
+423-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+424            android:required="false" />
+424-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+425        <uses-library
+425-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+426            android:name="androidx.window.sidecar"
+426-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+427            android:required="false" />
+427-->[androidx.window:window:1.0.0] /home/kwanghokim/.gradle/caches/transforms-3/f3e328e58e567db7fffb0fbd0dcdb4ba/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+428
+429        <provider
+429-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+430            android:name="androidx.startup.InitializationProvider"
+430-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+431            android:authorities="org.schabi.newpipe.debug.androidx-startup"
+431-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+433            <meta-data
+433-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+434                android:name="androidx.work.WorkManagerInitializer"
+434-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+435                android:value="androidx.startup" />
+435-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+436        </provider>
+437
+438        <service
+438-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+439            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+439-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+440            android:directBootAware="false"
+440-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+441            android:enabled="@bool/enable_system_alarm_service_default"
+441-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+442            android:exported="false" />
+442-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+443        <service
+443-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+444            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+444-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+445            android:directBootAware="false"
+445-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+446            android:enabled="@bool/enable_system_job_service_default"
+446-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+447            android:exported="true"
+447-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+448            android:permission="android.permission.BIND_JOB_SERVICE" />
+448-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+449        <service
+449-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+450            android:name="androidx.work.impl.foreground.SystemForegroundService"
+450-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+451            android:directBootAware="false"
+451-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+452            android:enabled="@bool/enable_system_foreground_service_default"
+452-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+453            android:exported="false" />
+453-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+454
+455        <receiver
+455-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+456            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+456-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+457            android:directBootAware="false"
+457-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+458            android:enabled="true"
+458-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+459            android:exported="false" />
+459-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+460        <receiver
+460-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+461            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+461-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+462            android:directBootAware="false"
+462-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+463            android:enabled="false"
+463-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+464            android:exported="false" >
+464-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+465            <intent-filter>
+465-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+466                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+466-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+466-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+467                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+467-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+467-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+468            </intent-filter>
+469        </receiver>
+470        <receiver
+470-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+471            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+471-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+472            android:directBootAware="false"
+472-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+473            android:enabled="false"
+473-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+474            android:exported="false" >
+474-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+475            <intent-filter>
+475-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+476                <action android:name="android.intent.action.BATTERY_OKAY" />
+476-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+476-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+477                <action android:name="android.intent.action.BATTERY_LOW" />
+477-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+477-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+478            </intent-filter>
+479        </receiver>
+480        <receiver
+480-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+481            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+481-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+482            android:directBootAware="false"
+482-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+483            android:enabled="false"
+483-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+484            android:exported="false" >
+484-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+485            <intent-filter>
+485-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+486                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+486-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+486-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+487                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+487-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+487-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+488            </intent-filter>
+489        </receiver>
+490        <receiver
+490-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+491            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+491-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+492            android:directBootAware="false"
+492-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+493            android:enabled="false"
+493-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+494            android:exported="false" >
+494-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+495            <intent-filter>
+495-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+496                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+496-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+496-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+497            </intent-filter>
+498        </receiver>
+499        <receiver
+499-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+500            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+500-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+501            android:directBootAware="false"
+501-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+502            android:enabled="false"
+502-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+503            android:exported="false" >
+503-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+504            <intent-filter>
+504-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+505                <action android:name="android.intent.action.BOOT_COMPLETED" />
+505-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+505-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+506                <action android:name="android.intent.action.TIME_SET" />
+506-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+506-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+507                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+507-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+507-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+508            </intent-filter>
+509        </receiver>
+510        <receiver
+510-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+511            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+511-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+512            android:directBootAware="false"
+512-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+513            android:enabled="@bool/enable_system_alarm_service_default"
+513-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+514            android:exported="false" >
+514-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+515            <intent-filter>
+515-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+516                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+516-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+516-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+517            </intent-filter>
+518        </receiver>
+519        <receiver
+519-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+520            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+520-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+521            android:directBootAware="false"
+521-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+522            android:enabled="true"
+522-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+523            android:exported="true"
+523-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+524            android:permission="android.permission.DUMP" >
+524-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+525            <intent-filter>
+525-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+526                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+526-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+526-->[androidx.work:work-runtime:2.7.1] /home/kwanghokim/.gradle/caches/transforms-3/f4f16f54c12d82089764765fdd0f0c74/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+527            </intent-filter>
+528        </receiver>
+529
+530        <service
+530-->[androidx.room:room-runtime:2.4.2] /home/kwanghokim/.gradle/caches/transforms-3/1c637afb11e4dfd80aff04fe8970b3c7/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+531            android:name="androidx.room.MultiInstanceInvalidationService"
+531-->[androidx.room:room-runtime:2.4.2] /home/kwanghokim/.gradle/caches/transforms-3/1c637afb11e4dfd80aff04fe8970b3c7/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+532            android:directBootAware="true"
+532-->[androidx.room:room-runtime:2.4.2] /home/kwanghokim/.gradle/caches/transforms-3/1c637afb11e4dfd80aff04fe8970b3c7/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+533            android:exported="false" />
+533-->[androidx.room:room-runtime:2.4.2] /home/kwanghokim/.gradle/caches/transforms-3/1c637afb11e4dfd80aff04fe8970b3c7/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+534
+535        <provider
+535-->[com.squareup.picasso:picasso:2.8] /home/kwanghokim/.gradle/caches/transforms-3/92f25bf45b7ff4e08688f73d0688711b/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+536            android:name="com.squareup.picasso.PicassoProvider"
+536-->[com.squareup.picasso:picasso:2.8] /home/kwanghokim/.gradle/caches/transforms-3/92f25bf45b7ff4e08688f73d0688711b/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+537            android:authorities="org.schabi.newpipe.debug.com.squareup.picasso"
+537-->[com.squareup.picasso:picasso:2.8] /home/kwanghokim/.gradle/caches/transforms-3/92f25bf45b7ff4e08688f73d0688711b/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+538            android:exported="false" />
+538-->[com.squareup.picasso:picasso:2.8] /home/kwanghokim/.gradle/caches/transforms-3/92f25bf45b7ff4e08688f73d0688711b/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+539
+540        <activity
+540-->[com.jakewharton:process-phoenix:2.1.2] /home/kwanghokim/.gradle/caches/transforms-3/42911e8e613eddd2565fc9f082c406ac/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+541            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+541-->[com.jakewharton:process-phoenix:2.1.2] /home/kwanghokim/.gradle/caches/transforms-3/42911e8e613eddd2565fc9f082c406ac/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+542            android:exported="false"
+542-->[com.jakewharton:process-phoenix:2.1.2] /home/kwanghokim/.gradle/caches/transforms-3/42911e8e613eddd2565fc9f082c406ac/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+543            android:process=":phoenix"
+543-->[com.jakewharton:process-phoenix:2.1.2] /home/kwanghokim/.gradle/caches/transforms-3/42911e8e613eddd2565fc9f082c406ac/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+544            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+544-->[com.jakewharton:process-phoenix:2.1.2] /home/kwanghokim/.gradle/caches/transforms-3/42911e8e613eddd2565fc9f082c406ac/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+545
+546        <provider
+546-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:29:9-37:20
+547            android:name="leakcanary.internal.LeakCanaryFileProvider"
+547-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:30:13-70
+548            android:authorities="com.squareup.leakcanary.fileprovider.org.schabi.newpipe.debug"
+548-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:31:13-88
+549            android:exported="false"
+549-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:32:13-37
+550            android:grantUriPermissions="true" >
+550-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:33:13-47
+551            <meta-data
+551-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:34:13-36:66
+552                android:name="android.support.FILE_PROVIDER_PATHS"
+552-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:35:17-67
+553                android:resource="@xml/leak_canary_file_paths" />
+553-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:36:17-63
+554        </provider>
+555
+556        <activity
+556-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:39:9-44:66
+557            android:name="leakcanary.internal.activity.LeakActivity"
+557-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:40:13-69
+558            android:icon="@mipmap/leak_canary_icon"
+558-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:41:13-52
+559            android:label="@string/leak_canary_display_activity_label"
+559-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:42:13-71
+560            android:taskAffinity="com.squareup.leakcanary.org.schabi.newpipe.debug"
+560-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:43:13-76
+561            android:theme="@style/leak_canary_LeakCanary.Base" />
+561-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:44:13-63
+562
+563        <activity-alias
+563-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:46:9-62:26
+564            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+564-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:47:13-77
+565            android:banner="@drawable/leak_canary_tv_icon"
+565-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:48:13-59
+566            android:enabled="@bool/leak_canary_add_launcher_icon"
+566-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:49:13-66
+567            android:icon="@mipmap/leak_canary_icon"
+567-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:50:13-52
+568            android:label="@string/leak_canary_display_activity_label"
+568-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:51:13-71
+569            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+569-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:52:13-79
+570            android:taskAffinity="com.squareup.leakcanary.org.schabi.newpipe.debug"
+570-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:53:13-76
+571            android:theme="@style/leak_canary_LeakCanary.Base" >
+571-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:54:13-63
+572            <intent-filter>
+572-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:32:13-37:29
+573                <action android:name="android.intent.action.MAIN" />
+573-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:33:17-69
+573-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:33:25-66
+574
+575                <category android:name="android.intent.category.LAUNCHER" />
+575-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:35:17-77
+575-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:35:27-74
+576                <!-- Android TV launcher intent -->
+577                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+577-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:36:17-86
+577-->/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/AndroidManifest.xml:36:27-83
+578            </intent-filter>
+579        </activity-alias>
+580
+581        <activity
+581-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:64:9-70:68
+582            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+582-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:65:13-80
+583            android:excludeFromRecents="true"
+583-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:66:13-46
+584            android:icon="@mipmap/leak_canary_icon"
+584-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:67:13-52
+585            android:label="@string/leak_canary_storage_permission_activity_label"
+585-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:68:13-82
+586            android:taskAffinity="com.squareup.leakcanary.org.schabi.newpipe.debug"
+586-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:69:13-76
+587            android:theme="@style/leak_canary_Theme.Transparent" />
+587-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:70:13-65
+588
+589        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+589-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:9-77
+589-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /home/kwanghokim/.gradle/caches/transforms-3/c02b7e6678b1318de58d9539c2c168ff/transformed/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:19-74
+590
+591        <provider
+591-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/8ab367e8295fa112e9ac1922e2c6eed0/transformed/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:8:9-12:40
+592            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+592-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/8ab367e8295fa112e9ac1922e2c6eed0/transformed/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:9:13-79
+593            android:authorities="org.schabi.newpipe.debug.leakcanary-installer"
+593-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/8ab367e8295fa112e9ac1922e2c6eed0/transformed/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:10:13-72
+594            android:enabled="@bool/leak_canary_watcher_auto_install"
+594-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/8ab367e8295fa112e9ac1922e2c6eed0/transformed/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:11:13-69
+595            android:exported="false" />
+595-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/8ab367e8295fa112e9ac1922e2c6eed0/transformed/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:12:13-37
+596        <provider
+596-->[com.squareup.leakcanary:plumber-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/66e63c975e29836a18a55e390045f0b5/transformed/jetified-plumber-android-2.5/AndroidManifest.xml:8:9-12:40
+597            android:name="leakcanary.internal.PlumberInstaller"
+597-->[com.squareup.leakcanary:plumber-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/66e63c975e29836a18a55e390045f0b5/transformed/jetified-plumber-android-2.5/AndroidManifest.xml:9:13-64
+598            android:authorities="org.schabi.newpipe.debug.plumber-installer"
+598-->[com.squareup.leakcanary:plumber-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/66e63c975e29836a18a55e390045f0b5/transformed/jetified-plumber-android-2.5/AndroidManifest.xml:10:13-69
+599            android:enabled="@bool/leak_canary_plumber_auto_install"
+599-->[com.squareup.leakcanary:plumber-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/66e63c975e29836a18a55e390045f0b5/transformed/jetified-plumber-android-2.5/AndroidManifest.xml:11:13-69
+600            android:exported="false" />
+600-->[com.squareup.leakcanary:plumber-android:2.5] /home/kwanghokim/.gradle/caches/transforms-3/66e63c975e29836a18a55e390045f0b5/transformed/jetified-plumber-android-2.5/AndroidManifest.xml:12:13-37
+601    </application>
+602
+603</manifest>

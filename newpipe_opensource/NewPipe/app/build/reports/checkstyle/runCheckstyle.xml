@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.0">
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/androidTest/java/org/schabi/newpipe/error/ErrorInfoTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/debug/java/org/schabi/newpipe/settings/DebugSettingsBVDLeakCanary.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/androidx/fragment/app/FragmentStatePagerAdapterMenuWorkaround.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/com/google/android/material/appbar/FlingBehavior.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/apache/commons/text/similarity/FuzzyScore.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/App.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/BaseFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/DownloaderImpl.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/ExitActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/MainActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/NewPipeDatabase.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/PanicResponderActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/QueueItemMenuUtil.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/RouterActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/AppDatabase.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/BasicDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/LocalItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/Migrations.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/history/dao/HistoryDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/history/dao/SearchHistoryDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/history/dao/StreamHistoryDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/history/model/StreamHistoryEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/PlaylistLocalItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/PlaylistMetadataEntry.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/dao/PlaylistDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/dao/PlaylistRemoteDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/dao/PlaylistStreamDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/model/PlaylistEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/model/PlaylistRemoteEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/playlist/model/PlaylistStreamEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/stream/dao/StreamStateDAO.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/stream/model/StreamStateEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/subscription/NotificationMode.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/database/subscription/SubscriptionEntity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/download/DownloadActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/download/DownloadDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/error/AcraReportSender.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/error/AcraReportSenderFactory.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/error/ErrorActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/error/ReCaptchaActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/error/UserAction.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/BackPressable.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/BaseStateFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/BlankFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/EmptyFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/MainFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/OnScrollBelowItemsListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/ViewContract.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/detail/DescriptionFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/detail/StackItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/detail/TabAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/detail/VideoDetailFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/detail/VideoDetailPlayerCrasher.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/BaseListFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/BaseListInfoFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/ListViewContract.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/channel/ChannelFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/comments/CommentsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/kiosk/DefaultKioskFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/kiosk/KioskFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/playlist/PlaylistFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/search/SearchFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/search/SuggestionItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/search/SuggestionListAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/fragments/list/videos/RelatedItemsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/InfoItemBuilder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/InfoListAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/dialog/InfoItemDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/dialog/StreamDialogDefaultEntry.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/dialog/StreamDialogEntry.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/ChannelGridInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/ChannelInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/ChannelMiniInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/CommentsInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/CommentsMiniInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/InfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/PlaylistGridInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/PlaylistInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/PlaylistMiniInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/StreamGridInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/StreamInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/info_list/holder/StreamMiniInfoItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/BaseLocalListFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/HeaderFooterHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/LocalItemBuilder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/LocalItemListAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/bookmark/BookmarkFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/dialog/PlaylistAppendDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/dialog/PlaylistCreationDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/dialog/PlaylistDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/history/HistoryEntryAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/history/HistoryRecordManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/history/StatisticsPlaylistFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalPlaylistGridItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalPlaylistItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalPlaylistStreamGridItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalPlaylistStreamItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalStatisticStreamGridItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/LocalStatisticStreamItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/PlaylistItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/RemotePlaylistGridItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/holder/RemotePlaylistItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/playlist/LocalPlaylistFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/playlist/LocalPlaylistManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/playlist/RemotePlaylistManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/ImportConfirmationDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/SubscriptionsImportFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/services/BaseImportExportService.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/services/ImportExportEventListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/services/ImportExportJsonHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/services/SubscriptionsExportService.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/local/subscription/services/SubscriptionsImportService.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/AudioServiceLeakFix.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/MainPlayer.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/NotificationConstants.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/NotificationUtil.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/PlayQueueActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/Player.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/PlayerServiceBinder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/PlayerState.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/CustomBottomSheetBehavior.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/OnKeyDownListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/PlayerEventListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/PlayerGestureListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/PlayerServiceEventListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/event/PlayerServiceExtendedEventListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/AudioReactor.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/CacheFactory.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/LoadController.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/LockManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/MediaSessionManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/PlaybackParameterDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/PlayerDataSource.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/PlayerHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/PlayerHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/helper/PlayerSemitoneHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediaitem/ExceptionTag.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediaitem/MediaItemTag.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediaitem/PlaceholderTag.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediaitem/StreamInfoTag.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasession/MediaSessionCallback.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasession/PlayQueueNavigator.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasource/FailedMediaSource.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasource/LoadedMediaSource.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasource/ManagedMediaSource.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasource/ManagedMediaSourcePlaylist.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/mediasource/PlaceholderMediaSource.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playback/MediaSourceManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playback/PlaybackListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playback/PlayerMediaSession.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playback/SurfaceHolderCallback.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/AbstractInfoPlayQueue.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/ChannelPlayQueue.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueue.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueueAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueueItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueueItemBuilder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueueItemHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlayQueueItemTouchCallback.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/PlaylistPlayQueue.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/SinglePlayQueue.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/AppendEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/ErrorEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/InitEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/MoveEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/PlayQueueEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/PlayQueueEventType.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/RecoveryEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/RemoveEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/ReorderEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/playqueue/events/SelectEvent.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/resolver/AudioPlaybackResolver.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/resolver/PlaybackResolver.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/resolver/Resolver.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/resolver/VideoPlaybackResolver.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/seekbarpreview/SeekbarPreviewThumbnailHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/player/seekbarpreview/SeekbarPreviewThumbnailHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/AppearanceSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/BasePreferenceFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/ContentSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/DebugSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/DownloadSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/HistorySettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/MainSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/NewPipeSettings.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/PeertubeInstanceListFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SelectChannelFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SelectKioskFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SelectPlaylistFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SettingMigrations.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SettingsActivity.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/SettingsResourceRegistry.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/UpdateSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/VideoAudioSettingsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/custom/NotificationActionsPreference.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceFuzzySearchFunction.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceParser.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchConfiguration.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchItem.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchResultHighlighter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearchResultListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/PreferenceSearcher.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/preferencesearch/package-info.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/tabs/AddTabDialog.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/tabs/ChooseTabsFragment.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/tabs/Tab.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/tabs/TabsJsonHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/settings/tabs/TabsManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/DataReader.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/Mp4DashReader.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/Mp4FromDashWriter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/OggFromWebMWriter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/SrtFromTtmlWriter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/WebMReader.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/WebMWriter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/NoFileManagerSafeGuard.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/SharpInputStream.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/SharpOutputStream.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/SharpStream.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/StoredDirectoryHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/streams/io/StoredFileHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/CommentTextOnTouchListener.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/CookieUtils.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/DeviceUtils.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/ExtractorHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/FallbackViewHolder.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/FilePickerActivityHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/FilenameUtils.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/InfoCache.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/KeyboardUtil.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/KioskTranslator.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/ListHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/Localization.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/NavigationHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/NewPipeTextViewHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/OnClickGesture.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/PeertubeHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/PermissionHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/PicassoHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/RelatedItemInfo.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/SecondaryStreamHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/SerializedCache.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/ServiceHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/SliderStrategy.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/SparseItemUtil.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/StateSaver.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/StreamItemAdapter.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/StreamTypeUtil.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/TLSSocketFactoryCompat.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/ThemeHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/ZipHelper.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/external_communication/InternalUrlsHandler.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/external_communication/KoreUtils.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/external_communication/ShareUtils.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/external_communication/TextLinkifier.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/external_communication/TimestampExtractor.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/util/urlfinder/PatternsCompat.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/AnimatedProgressBar.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/CollapsibleView.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/CustomCollapsingToolbarLayout.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/ExpandableSurfaceView.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/FocusAwareCoordinator.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/FocusAwareDrawerLayout.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/FocusAwareSeekBar.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/FocusOverlayView.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/NewPipeEditText.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/NewPipeRecyclerView.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/NewPipeTextView.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/ScrollableTabLayout.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/main/java/org/schabi/newpipe/views/SuperScrollLayoutManager.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/error/ErrorActivityTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/local/subscription/services/ImportExportJsonHelperTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/player/playqueue/PlayQueueItemTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/player/playqueue/PlayQueueTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/settings/tabs/TabTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/settings/tabs/TabsJsonHelperTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/util/ListHelperTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/util/QuadraticSliderStrategyTest.java">
+</file>
+<file name="/home/kwanghokim/workspace/dump/opensourceapp/newpipe/NewPipe/app/src/test/java/org/schabi/newpipe/util/external_communication/TimestampExtractorTest.java">
+</file>
+</checkstyle>

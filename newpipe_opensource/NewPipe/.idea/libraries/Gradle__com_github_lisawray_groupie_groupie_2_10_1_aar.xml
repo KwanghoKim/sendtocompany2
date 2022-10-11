@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.lisawray.groupie:groupie:2.10.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bf7e3aba8f36bed9b8285069ae21301b/transformed/jetified-groupie-2.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf7e3aba8f36bed9b8285069ae21301b/transformed/jetified-groupie-2.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bf7e3aba8f36bed9b8285069ae21301b/transformed/jetified-groupie-2.10.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lisawray.groupie/groupie/2.10.1/186a72e626938f769cd8a2a08af5365f014a59cf/groupie-2.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
